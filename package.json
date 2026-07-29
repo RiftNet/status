@@ -1,0 +1,20 @@
+{
+  "name": "@riftnet/status",
+  "version": "1.0.0",
+  "description": "Status page for Rift platform services",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": ["rift", "status", "monitoring"],
+  "author": "Keira Hopkins",
+  "license": "PROPRIETARY",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}
