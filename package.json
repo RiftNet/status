@@ -9,6 +9,7 @@
     "start": "node dist/server.js",
     "type-check": "tsc --noEmit"
   },
+  "packageManager": "pnpm@latest",
   "keywords": ["rift", "status", "monitoring"],
   "author": "Keira Hopkins",
   "license": "PROPRIETARY",

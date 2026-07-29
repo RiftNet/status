@@ -26,13 +26,13 @@ node:http Server → HTML Template → CSS Styling → SVG Icons
 
 ```bash
 cd /root/rift/status
-npm install
+pnpm install
 ```
 
 ### Development
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Server runs on `http://localhost:9000` with hot reload via tsx.
@@ -40,7 +40,7 @@ Server runs on `http://localhost:9000` with hot reload via tsx.
 ### Build
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Compiles TypeScript to `dist/server.js`.
@@ -48,13 +48,13 @@ Compiles TypeScript to `dist/server.js`.
 ### Production
 
 ```bash
-npm start
+pnpm start
 ```
 
 ### Type Checking
 
 ```bash
-npm run type-check
+pnpm type-check
 ```
 
 ## Environment Variables
